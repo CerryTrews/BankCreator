@@ -34,6 +34,7 @@ public class Principal {
         preferidas.inclui(meuPodcast);
         preferidas.inclui(minhaMusica);
 
-
+        System.out.println(meuPodcast.getTitulo());
+        System.out.println(meuPodcast.getApresentador());
     }
 }
