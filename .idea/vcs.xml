@@ -3,6 +3,8 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JavaConsumindoAPI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/apostila" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/primeiroprojeto/src" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/screenmatch" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/untitled" vcs="Git" />
