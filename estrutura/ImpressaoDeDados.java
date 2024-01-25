@@ -14,7 +14,7 @@ public class ImpressaoDeDados {
         dados += ("\nCPF: " + conta.getCpf());
         dados += ("\n-- " + conta.getTipoDeConta() + " --");
         dados += ("\nNúmero: " + conta.getNumeroDaConta());
-        //todo arrumar essa desgraça que não funciona dados += ("\nAgência: " + conta.getAgencia());
+        //todo dados += ("\nAgência: " + conta.getAgencia());
         dados += ("\nSaldo: R$" + df.format(conta.getSaldoConta()));
         dados += ("\nLimite: R$" + df.format(conta.getLimite()));
         dados += ("\nRendimento: R$" + df.format(conta.getRendimento()) + "/mês");

@@ -10,13 +10,15 @@ todo
  - criar classe para gerar data de abertura -- funcionando
  - criar classe para gerar numero da agencia -- funcionando
  - criar classe para gerar cpf aleatório -- funcionando
- - agregar o Random à Classe GeradorDeCpf --
- - criar dígitos aleatórios e ifs para definir qual agencia a conta pertence -- parcial
+ - agregar o Random à Classe GeradorDeCpf -- funcionando
+ - criar dígitos aleatórios e ifs para definir qual agencia a conta pertence -- parcial: *classe não consegue importar o
+   gerador de dígito*
  - criar classe para dar nomes aleatórios aos titulares das contas -- funcionando
- - arrumar métodos deposita e saca --
- - distribuir melhor as funções de cada classe e métodos.
-
- */
+ - arrumar métodos deposita, saca e transfere --
+ - distribuir melhor as funções de cada classe e métodos --
+ - diferenciar método de transferência comum e pix, transferência deve conter uma taxa para cada transação, já o pix
+   deverá ser gratuito --
+*/
 
 
 public class ProgramaContaArray {

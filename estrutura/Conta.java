@@ -20,7 +20,7 @@ public class Conta extends Cliente{
     private boolean seletorTipoDeConta = new SeletorDeTipoDeConta().pegaTipoDeConta();
     private String tipoDeConta;
     private String numeroDaConta = new GeradorDeConta().geraConta();
-    private SeletorDeAgencia agencia;
+    private String agencia;
     private double saldo = new GeradorDeSaldo().getSaldo();
     private double limite;
     private double rendimento;
@@ -37,10 +37,6 @@ public class Conta extends Cliente{
 
     public String getNumeroDaConta() {
         return numeroDaConta;
-    }
-
-    public String getAgencia() {
-        return agencia.seletorDeAgencia();
     }
 
     public double getSaldoConta() {

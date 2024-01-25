@@ -1,14 +1,14 @@
 package Exercicios.Banco.BankCreator.BankCreator.Geradores;
 
+import java.util.Random;
+
 public class GeradorDeCpf {
-    private int min = 100000000;
-    private int max = 999999999;
-    private int range = ((max - min) + 1) + min;
+    Random random = new Random();
 
     public String geraCpf() {
 
-        int corpoCpf = (int)(Math.random() * (range - min) + 1);
-        int digitoCpf = (int) (Math.random() * ((99 - 10) + 1) + 10);
+        int corpoCpf = random.nextInt(234234234, 999999999);
+        int digitoCpf = random.nextInt(10, 99);
 
         return String.valueOf(corpoCpf) + "-" + String.valueOf(digitoCpf);
     }

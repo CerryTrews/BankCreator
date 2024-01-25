@@ -1,6 +1,7 @@
 package Exercicios.Banco.BankCreator.BankCreator.Geradores;
 
 
+import java.util.List;
 import java.util.Random;
 
 public class GeradorDeNome {
@@ -13,11 +14,11 @@ public class GeradorDeNome {
             "Daniela", "Renato", "Thais", "Gabriel", "Natália",
             "Carlos", "Cristino", "Eliéser", "Denise", "Letícia",
             "Antonio", "Igor", "Tonin", "Marta", "Denis", "Papinho",
-            "Afonso"
+            "Afonso", "Geralda", "Cibeli", "Clara", "Diva", "Bento"
     };
 
     public String geraNome() {
         Random random = new Random();
-        return nomes[random.nextInt(0,40)];
+        return nomes[random.nextInt(0,44)];
     }
 }
