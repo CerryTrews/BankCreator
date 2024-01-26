@@ -1,6 +1,6 @@
-package Exercicios.Banco.BankCreator.BankCreator.Conta;
+package Exercicios.Banco.BankCreator.BankCreator.estrutura;
 
-import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeData;
+import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeData;
 
 public class Data {
     private int dia;

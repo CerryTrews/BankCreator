@@ -1,7 +1,7 @@
 package Exercicios.Banco.BankCreator.BankCreator;
 
-import Exercicios.Banco.BankCreator.BankCreator.Conta.Conta;
-import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Impressora.ImpressaoDeDados;
+import Exercicios.Banco.BankCreator.BankCreator.estrutura.Conta;
+import Exercicios.Banco.BankCreator.BankCreator.estrutura.ImpressaoDeDados;
 
 
 /*
@@ -20,7 +20,7 @@ todo
 */
 
 
-public class BankCreator {
+public class ProgramaContaArray {
     public static void main(String[] args) {
         Conta[] minhasContas = new Conta[20];
         ImpressaoDeDados print = new ImpressaoDeDados();

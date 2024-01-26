@@ -1,4 +1,4 @@
-package Exercicios.Banco.BankCreator.BankCreator.Transacoes;
+package Exercicios.Banco.BankCreator.BankCreator.transacoes;
 
 public class FazerPix {
 

@@ -1,4 +1,4 @@
-package Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores;
+package Exercicios.Banco.BankCreator.BankCreator.Geradores;
 
 import java.util.GregorianCalendar;
 import java.util.Random;

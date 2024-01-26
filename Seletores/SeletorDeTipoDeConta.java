@@ -1,4 +1,4 @@
-package Exercicios.Banco.BankCreator.BankCreator.Estrutura.Seletores;
+package Exercicios.Banco.BankCreator.BankCreator.Seletores;
 
 import java.util.Random;
 

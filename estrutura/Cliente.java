@@ -1,7 +1,7 @@
-package Exercicios.Banco.BankCreator.BankCreator.Conta;
+package Exercicios.Banco.BankCreator.BankCreator.estrutura;
 
-import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeCpf;
-import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeNome;
+import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeCpf;
+import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeNome;
 
 public class Cliente {
         private String nome = new GeradorDeNome().geraNome();
