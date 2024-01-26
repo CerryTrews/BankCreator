@@ -11,8 +11,7 @@ todo
  - criar classe para gerar numero da agencia -- funcionando
  - criar classe para gerar cpf aleatório -- funcionando
  - agregar o Random à Classe GeradorDeCpf -- funcionando
- - criar dígitos aleatórios e ifs para definir qual agencia a conta pertence -- parcial: *classe não consegue importar o
-   gerador de dígito*
+ - criar dígitos aleatórios e ifs para definir qual agencia a conta pertence -- funcionando
  - criar classe para dar nomes aleatórios aos titulares das contas -- funcionando
  - arrumar métodos deposita, saca e transfere --
  - distribuir melhor as funções de cada classe e métodos --

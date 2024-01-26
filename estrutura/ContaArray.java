@@ -2,14 +2,12 @@ package Exercicios.Banco.BankCreator.BankCreator.estrutura;
 
 import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeConta;
 import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeSaldo;
-import Exercicios.Banco.BankCreator.BankCreator.Seletores.SeletorDeAgencia;
 
 public class ContaArray {
 
     private String titular = new Cliente().getNome();
     private String cpf = new Cliente().getCpf();
     private GeradorDeConta numero = new GeradorDeConta();
-    private SeletorDeAgencia agencia = new SeletorDeAgencia();
     private Data dataAbertura = new Data();
     private GeradorDeSaldo liquido = new GeradorDeSaldo();
 
@@ -25,9 +23,6 @@ public class ContaArray {
         return numero;
     }
 
-    public SeletorDeAgencia getAgencia() {
-        return agencia;
-    }
 
     public Data getDataAbertura() {
         return dataAbertura;

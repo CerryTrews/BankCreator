@@ -2,11 +2,8 @@ package Exercicios.Banco.BankCreator.BankCreator.estrutura;
 
 import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeConta;
 import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeSaldo;
-import Exercicios.Banco.BankCreator.BankCreator.Seletores.SeletorDeAgencia;
 import Exercicios.Banco.BankCreator.BankCreator.Seletores.SeletorDeTipoDeConta;
 import Exercicios.Banco.BankCreator.BankCreator.TipoDeConta.ContaPoupanca;
-
-import java.lang.annotation.Inherited;
 
 public class Conta extends Cliente{
 
@@ -19,7 +16,9 @@ public class Conta extends Cliente{
 
     private boolean seletorTipoDeConta = new SeletorDeTipoDeConta().pegaTipoDeConta();
     private String tipoDeConta;
-    private String numeroDaConta = new GeradorDeConta().geraConta();
+    private int corpoDaConta = new GeradorDeConta().geraConta();
+    private int digitoDaConta = new GeradorDeConta().geraDigito();
+    private String numeroDaConta = String.valueOf(corpoDaConta) + "-" + String.valueOf(digitoDaConta);
     private String agencia;
     private double saldo = new GeradorDeSaldo().getSaldo();
     private double limite;
@@ -72,5 +71,37 @@ public class Conta extends Cliente{
             tipoDeConta = "Conta poupança";
         }
         return tipoDeConta;
+    }
+
+
+
+    private String[] agenciaBancaria = {"Dígito 1 - Bradesco", "Dígito 2 - Itaú", "Dígito 3 - Unibanco", "Digito 4 - Santander",
+                                 "Dígito 5 - Banco do Brasil", "Dígito 6 - NuBank", "Dígito 7 - C6Bank",
+                                 "Dígito 8 - Caixa Econômica Federal", "Dígito 9 - Banco Inter",
+                                 "Dígito 10 - Banco Real"};
+
+    public String getAgencia() {
+        if(digitoDaConta <= 1) {
+            agencia = agenciaBancaria[0];
+        } else if (digitoDaConta == 2) {
+            agencia = agenciaBancaria[1];
+        } else if (digitoDaConta == 3) {
+            agencia = agenciaBancaria[2];
+        } else if (digitoDaConta == 4) {
+            agencia = agenciaBancaria[3];
+        } else if (digitoDaConta == 5) {
+            agencia = agenciaBancaria[4];
+        } else if (digitoDaConta == 6) {
+            agencia = agenciaBancaria[5];
+        } else if (digitoDaConta == 7) {
+            agencia = agenciaBancaria[6];
+        } else if (digitoDaConta == 8) {
+            agencia = agenciaBancaria[7];
+        } else if (digitoDaConta == 9) {
+            agencia = agenciaBancaria[8];
+        } else {
+            agencia = agenciaBancaria[9];
+        }
+        return agencia;
     }
 }
