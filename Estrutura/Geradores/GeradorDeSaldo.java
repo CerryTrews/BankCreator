@@ -5,7 +5,7 @@ import java.util.Random;
 public class GeradorDeSaldo {
 
     Random random = new Random();
-    private double saldo = geraSaldo();
+    private final double saldo = geraSaldo();
 
     private double geraSaldo() {
         return random.nextDouble(3.00,9999.99);

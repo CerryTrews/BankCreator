@@ -5,7 +5,9 @@ import java.util.Random;
 public class GeradorDeData {
     Random random = new Random();
 
-    private int ano, mes, dia;
+    private final int ano;
+    private final int mes;
+    private final int dia;
 
     public GeradorDeData () {
 

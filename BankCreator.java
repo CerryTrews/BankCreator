@@ -3,6 +3,19 @@ package Exercicios.Banco.BankCreator.BankCreator;
 import Exercicios.Banco.BankCreator.BankCreator.Conta.Conta;
 import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Impressora.ImpressaoDeDados;
 
+public class BankCreator {
+    public static void main(String[] args) {
+        Conta[] minhasContas = new Conta[20];
+
+        for (int j = 0; j <= minhasContas.length - 1; j++) {
+            minhasContas[j] = new Conta();
+        }
+
+        for (int i = 0; i <= (minhasContas.length - 1); i++) {
+            System.out.println(ImpressaoDeDados.dados());
+        }
+    }
+}
 
 /*
 todo
@@ -20,17 +33,3 @@ todo
 */
 
 
-public class BankCreator {
-    public static void main(String[] args) {
-        Conta[] minhasContas = new Conta[20];
-        ImpressaoDeDados print = new ImpressaoDeDados();
-
-        for (int j = 0; j <= minhasContas.length - 1; j++) {
-            minhasContas[j] = new Conta();
-        }
-
-        for (int i = 0; i <= (minhasContas.length - 1); i++) {
-            System.out.println(print.dados());
-        }
-    }
-}
