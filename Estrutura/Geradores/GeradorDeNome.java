@@ -1,7 +1,5 @@
 package Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores;
 
-
-import java.util.List;
 import java.util.Random;
 
 public class GeradorDeNome {

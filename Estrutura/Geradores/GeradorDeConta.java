@@ -3,11 +3,7 @@ package Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores;
 import java.util.Random;
 
 public class GeradorDeConta {
-
     Random random = new Random();
-    private int conta = geraConta();
-    private int digito = geraDigito();
-
 
     public int geraConta() {
         random = new Random();
