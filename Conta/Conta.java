@@ -3,27 +3,22 @@ package Exercicios.Banco.BankCreator.BankCreator.Conta;
 import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeConta;
 import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeSaldo;
 import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Seletores.SeletorDeTipoDeConta;
-import Exercicios.Banco.BankCreator.BankCreator.Conta.TipoDeConta.ContaPoupanca;
 
 public class Conta extends Cliente{
 
-    private String titular = new Cliente().getNome();
+    private final String titular = new Cliente().getNome();
 
     @Override
     public String getCpf() {
         return super.getCpf();
     }
 
-    private boolean seletorTipoDeConta = new SeletorDeTipoDeConta().pegaTipoDeConta();
-    private String tipoDeConta;
-    private int corpoDaConta = new GeradorDeConta().geraConta();
-    private int digitoDaConta = new GeradorDeConta().geraDigito();
-    private String numeroDaConta = String.valueOf(corpoDaConta) + "-" + String.valueOf(digitoDaConta);
-    private String agencia;
-    private double saldo = new GeradorDeSaldo().getSaldo();
-    private double limite;
-    private double rendimento;
-    private String dataAbertura = new Data().inserirData();
+    private final boolean seletorTipoDeConta = new SeletorDeTipoDeConta().pegaTipoDeConta();
+    private final int corpoDaConta = new GeradorDeConta().geraConta();
+    private final int digitoDaConta = new GeradorDeConta().geraDigito();
+    private final String numeroDaConta = String.valueOf(corpoDaConta) + "-" + String.valueOf(digitoDaConta);
+    private final double saldo = new GeradorDeSaldo().getSaldo();
+    private final String dataAbertura = new Data().inserirData();
 
 
     public String getTitular() {
@@ -43,19 +38,21 @@ public class Conta extends Cliente{
     }
 
     public double getLimite() {
-        if(seletorTipoDeConta() == true) {
-            this.limite = saldo * 1.13;
+        double limite;
+        if(seletorTipoDeConta()) {
+            limite = saldo * 1.13;
         } else {
-            this.limite = new ContaPoupanca().getLimite();
+            limite = saldo * 0;
         }
         return limite;
     }
 
     public double getRendimento() {
-        if(seletorTipoDeConta() == true) {
-            this.rendimento = saldo * 0.01;
+        double rendimento;
+        if(seletorTipoDeConta()) {
+            rendimento = saldo * 0.01;
         } else {
-            this.rendimento = new ContaPoupanca().getRendimento();
+            rendimento = saldo * 0.10;
         }
         return rendimento;
     }
@@ -65,7 +62,8 @@ public class Conta extends Cliente{
     }
 
     public String getTipoDeConta() {
-        if (seletorTipoDeConta() == true) {
+        String tipoDeConta;
+        if (seletorTipoDeConta()) {
             tipoDeConta = "Conta corrente";
         } else {
             tipoDeConta = "Conta poupança";
@@ -75,12 +73,13 @@ public class Conta extends Cliente{
 
 
 
-    private String[] agenciaBancaria = {"Dígito 1 - Bradesco", "Dígito 2 - Itaú", "Dígito 3 - Unibanco", "Digito 4 - Santander",
-                                 "Dígito 5 - Banco do Brasil", "Dígito 6 - NuBank", "Dígito 7 - C6Bank",
-                                 "Dígito 8 - Caixa Econômica Federal", "Dígito 9 - Banco Inter",
-                                 "Dígito 10 - Banco Real"};
+    private final String[] agenciaBancaria = {"Dígito 1 - Bradesco", "Dígito 2 - Itaú", "Dígito 3 - Unibanco"
+                                            , "Digito 4 - Santander", "Dígito 5 - Banco do Brasil",
+                                              "Dígito 6 - NuBank", "Dígito 7 - C6Bank", "Dígito 8 - Caixa Econômica Federal",
+                                              "Dígito 9 - Banco Inter", "Dígito 10 - Banco Real"};
 
     public String getAgencia() {
+        String agencia;
         if(digitoDaConta <= 1) {
             agencia = agenciaBancaria[0];
         } else if (digitoDaConta == 2) {
