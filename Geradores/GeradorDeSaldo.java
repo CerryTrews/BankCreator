@@ -3,7 +3,6 @@ package Exercicios.Banco.BankCreator.BankCreator.Geradores;
 import java.util.Random;
 
 public class GeradorDeSaldo {
-//-- Gerador de saldo em conjunto com gerador de limite e rendimento.
 
     Random random = new Random();
     private double saldo = geraSaldo();
@@ -16,11 +15,4 @@ public class GeradorDeSaldo {
         return this.saldo;
     }
 
-    public double getLimite() {
-        return this.saldo * 1.13;
-    }
-
-    public double getRendimento() {
-        return this.saldo * 0.01;
-    }
 }

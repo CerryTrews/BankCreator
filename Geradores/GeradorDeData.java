@@ -1,10 +1,8 @@
 package Exercicios.Banco.BankCreator.BankCreator.Geradores;
 
-import java.util.GregorianCalendar;
 import java.util.Random;
 
 public class GeradorDeData {
-    GregorianCalendar calendario = new GregorianCalendar();
     Random random = new Random();
 
     private int ano, mes, dia;
