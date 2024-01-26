@@ -1,4 +1,6 @@
-package Exercicios.Banco.BankCreator.BankCreator.estrutura;
+package Exercicios.Banco.BankCreator.BankCreator.Estrutura.Impressora;
+
+import Exercicios.Banco.BankCreator.BankCreator.Conta.Conta;
 
 import java.text.DecimalFormat;
 

@@ -1,4 +1,4 @@
-package Exercicios.Banco.BankCreator.BankCreator.Geradores;
+package Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores;
 
 
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class GeradorDeNome {
     String[] nomes = {
-            "João", "Maria", "Pedro", "Ana", "Luiz",
+            "João", "Maria", "Pedro", "Jeferson", "Luiz",
             "Carla", "Rafael", "Julia", "Fernando", "Camila",
             "Lucas", "Isabela", "Miguel", "Amanda", "Rodrigo",
             "Beatriz", "Gustavo", "Larissa", "Marcos", "Raquel",
