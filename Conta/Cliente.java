@@ -1,7 +1,7 @@
-package Exercicios.Banco.BankCreator.BankCreator.estrutura;
+package Exercicios.Banco.BankCreator.BankCreator.Conta;
 
-import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeCpf;
-import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeNome;
+import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeCpf;
+import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeNome;
 
 public class Cliente {
         private String nome = new GeradorDeNome().geraNome();
@@ -28,16 +28,8 @@ public class Cliente {
         return nome;
     }
 
-    public String getEndereco() {
-        return endereco;
-    }
-
     public String getCpf() {
         return cpf;
-    }
-
-    public int getIdade() {
-        return idade;
     }
 }
 

@@ -1,4 +1,4 @@
-package Exercicios.Banco.BankCreator.BankCreator.transacoes;
+package Exercicios.Banco.BankCreator.BankCreator.Conta.Transacoes;
 
 public class FazerTransferencia {
     /*

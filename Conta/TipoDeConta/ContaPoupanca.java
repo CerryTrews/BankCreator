@@ -1,6 +1,6 @@
-package Exercicios.Banco.BankCreator.BankCreator.TipoDeConta;
+package Exercicios.Banco.BankCreator.BankCreator.Conta.TipoDeConta;
 
-import Exercicios.Banco.BankCreator.BankCreator.estrutura.Conta;
+import Exercicios.Banco.BankCreator.BankCreator.Conta.Conta;
 
 public class ContaPoupanca extends Conta {
 

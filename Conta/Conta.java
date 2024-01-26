@@ -1,9 +1,9 @@
-package Exercicios.Banco.BankCreator.BankCreator.estrutura;
+package Exercicios.Banco.BankCreator.BankCreator.Conta;
 
-import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeConta;
-import Exercicios.Banco.BankCreator.BankCreator.Geradores.GeradorDeSaldo;
-import Exercicios.Banco.BankCreator.BankCreator.Seletores.SeletorDeTipoDeConta;
-import Exercicios.Banco.BankCreator.BankCreator.TipoDeConta.ContaPoupanca;
+import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeConta;
+import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeSaldo;
+import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Seletores.SeletorDeTipoDeConta;
+import Exercicios.Banco.BankCreator.BankCreator.Conta.TipoDeConta.ContaPoupanca;
 
 public class Conta extends Cliente{
 
