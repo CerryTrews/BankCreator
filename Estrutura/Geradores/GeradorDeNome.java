@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class GeradorDeNome {
     String[] nomes = {
-            "João", "Maria", "Pedro", "Ana", "Luiz",
+            "João", "Maria", "Pedro", "Roberswaldo", "Luiz",
             "Carla", "Rafael", "Julia", "Fernando", "Camila",
             "Lucas", "Isabela", "Miguel", "Amanda", "Rodrigo",
             "Beatriz", "Gustavo", "Larissa", "Marcos", "Raquel",

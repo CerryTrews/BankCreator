@@ -2,20 +2,35 @@ package Exercicios.Banco.BankCreator.BankCreator;
 
 import Exercicios.Banco.BankCreator.BankCreator.Conta.Conta;
 import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Impressora.ImpressaoDeDados;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class BankCreator {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Conta[] minhasContas = new Conta[20];
+        ImpressaoDeDados dados = new ImpressaoDeDados();
 
-        for (int j = 0; j <= minhasContas.length - 1; j++) {
-            minhasContas[j] = new Conta();
+        Gson gson = new GsonBuilder()
+                .setPrettyPrinting()
+                .create();
+        FileWriter salvar = new FileWriter("carteiraBancaria" + ".json");
+
+        for (Conta conta : minhasContas) {
+            System.out.println(dados.print());
         }
 
-        for (int i = 0; i <= (minhasContas.length - 1); i++) {
-            System.out.println(ImpressaoDeDados.dados());
+        for (Conta conta : minhasContas) {
+            salvar.write(gson.toJson(dados.gs()));
         }
+        salvar.close();
+
     }
 }
+
+
 
 /*
 todo
@@ -30,6 +45,8 @@ todo
  - distribuir melhor as funções de cada classe e métodos --
  - diferenciar método de transferência comum e pix, transferência deve conter uma taxa para cada transação, já o pix
    deverá ser gratuito --
+ - programar para o resultado da execução do código gerar um json com todas as informações --
+ - desenvolver uma interface --
 */
 
 
