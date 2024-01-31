@@ -1,4 +1,3 @@
-# academy-template-readme-profile
 
 # Oi, me chamo [Denis Carreto] 👋
 
