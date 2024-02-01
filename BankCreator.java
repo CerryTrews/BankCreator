@@ -1,27 +1,31 @@
 package Exercicios.Banco.BankCreator.BankCreator;
 
 import Exercicios.Banco.BankCreator.BankCreator.Conta.Conta;
-import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Impressora.ImpressaoDeDados;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import java.io.FileWriter;
 import java.io.IOException;
 
+
 public class BankCreator {
     public static void main(String[] args) throws IOException {
-        ImpressaoDeDados dados = new ImpressaoDeDados();
-        Conta[] minhasContas = new Conta[80]; // número de contas que serão criadas
+        Conta[] minhasContas = new Conta[10]; // número de contas que serão criadas
+        ObjectMapper objectMapper = new ObjectMapper();
 
+        objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
 
-        /*Gson gson = new GsonBuilder()
-                .setPrettyPrinting()
-                .create();
-        FileWriter salvar = new FileWriter("carteiraBancaria" + ".json");*/
+        for (int i = 0; i < minhasContas.length; i++) {
+            minhasContas[i] = new Conta();
+        }
 
-        for(Conta conta : minhasContas) {
-            System.out.println((dados.dados()));
-
+        try {
+            String json = objectMapper.writeValueAsString(minhasContas);
+            System.out.println(json);
+            FileWriter salvar = new FileWriter("carteiraBancaria" + ".json");
+            salvar.write(json);
+            salvar.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }

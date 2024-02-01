@@ -4,26 +4,21 @@ import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeCon
 import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Geradores.GeradorDeSaldo;
 import Exercicios.Banco.BankCreator.BankCreator.Estrutura.Seletores.SeletorDeTipoDeConta;
 
-public class Conta extends Cliente {
+import java.text.DecimalFormat;
+
+public class Conta {
+
+    DecimalFormat df = new DecimalFormat();
+
 
     private final String titular = new Cliente().getNome();
-
-    @Override
-    public String getCpf() {
-        return super.getCpf();
-    }
-
+    private final String cpf = new Cliente().getCpf();
     private final boolean seletorTipoDeConta = new SeletorDeTipoDeConta().pegaTipoDeConta();
     private final int corpoDaConta = new GeradorDeConta().geraConta();
     private final int digitoDaConta = new GeradorDeConta().geraDigito();
     private final String numeroDaConta = String.valueOf(corpoDaConta) + "-" + String.valueOf(digitoDaConta);
     private final double saldo = new GeradorDeSaldo().getSaldo();
     private final String dataAbertura = new Data().inserirData();
-
-
-    public String getTitular() {
-        return titular;
-    }
 
     public boolean seletorTipoDeConta() {
         return seletorTipoDeConta;
@@ -33,28 +28,36 @@ public class Conta extends Cliente {
         return numeroDaConta;
     }
 
-    public double getSaldoConta() {
-        return saldo;
+    public String getSaldoConta() {
+        return "R$" + df.format(saldo);
     }
 
-    public double getLimite() {
+    public String getTitular() {
+        return titular;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public String getLimite() {
         double limite;
         if (seletorTipoDeConta()) {
             limite = saldo * 1.13;
         } else {
             limite = saldo * 0;
         }
-        return limite;
+        return "R$" + df.format(limite);
     }
 
-    public double getRendimento() {
+    public String getRendimento() {
         double rendimento;
         if (seletorTipoDeConta()) {
             rendimento = saldo * 0.01;
         } else {
             rendimento = saldo * 0.10;
         }
-        return rendimento;
+        return "R$" + df.format(rendimento);
     }
 
     public String getDataAbertura() {
