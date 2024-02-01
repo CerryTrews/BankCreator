@@ -72,14 +72,14 @@ public class Conta extends Cliente {
     }
 
 
+
     private final String[] agenciaBancaria = {"Dígito 1 - Bradesco", "Dígito 2 - Itaú", "Dígito 3 - Unibanco"
-            , "Digito 4 - Santander", "Dígito 5 - Banco do Brasil",
-            "Dígito 6 - Nu Bank", "Dígito 7 - C6 Bank", "Dígito 8 - Caixa Econômica Federal",
-            "Dígito 9 - Banco Inter", "Dígito 10 - Banco Real"};
+                                            , "Digito 4 - Santander", "Dígito 5 - Banco do Brasil",
+                                              "Dígito 6 - Nu Bank", "Dígito 7 - C6 Bank", "Dígito 8 - Caixa Econômica Federal",
+                                              "Dígito 9 - Banco Inter", "Dígito 10 - Banco Real"};
 
     public String getAgencia() {
         String agencia;
-
         if(digitoDaConta <= 1) {
             agencia = agenciaBancaria[0];
         } else if (digitoDaConta == 2) {

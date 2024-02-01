@@ -10,23 +10,19 @@ import java.io.IOException;
 
 public class BankCreator {
     public static void main(String[] args) throws IOException {
-        Conta[] minhasContas = new Conta[20];
         ImpressaoDeDados dados = new ImpressaoDeDados();
+        Conta[] minhasContas = new Conta[80]; // número de contas que serão criadas
 
-        Gson gson = new GsonBuilder()
+
+        /*Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .create();
-        FileWriter salvar = new FileWriter("carteiraBancaria" + ".json");
+        FileWriter salvar = new FileWriter("carteiraBancaria" + ".json");*/
 
-        for (Conta conta : minhasContas) {
-            System.out.println(dados.print());
+        for(Conta conta : minhasContas) {
+            System.out.println((dados.dados()));
+
         }
-
-        for (Conta conta : minhasContas) {
-            salvar.write(gson.toJson(dados.gs()));
-        }
-        salvar.close();
-
     }
 }
 
@@ -46,6 +42,8 @@ todo
  - diferenciar método de transferência comum e pix, transferência deve conter uma taxa para cada transação, já o pix
    deverá ser gratuito --
  - programar para o resultado da execução do código gerar um json com todas as informações --
+ - arrumar o código para que o resultado da criação, da impressão no console e as informações
+   colocadas dentro do arquivo json, sejam as mesmas.
  - desenvolver uma interface --
 */
 
