@@ -1,0 +1,601 @@
+[ {
+  "titular" : "Eduardo",
+  "cpf" : "593887224-26",
+  "numeroDaConta" : "3291-4",
+  "dataAbertura" : "7/3/2022",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$2124.25",
+  "rendimento" : "R$18.8",
+  "agencia" : "Digito 4 - Santander",
+  "saldoConta" : "R$1879.86"
+}, {
+  "titular" : "Daniela",
+  "cpf" : "245293715-62",
+  "numeroDaConta" : "3370-2",
+  "dataAbertura" : "9/7/1997",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$9020.74",
+  "rendimento" : "R$79.83",
+  "agencia" : "Dígito 2 - Itaú",
+  "saldoConta" : "R$7982.95"
+}, {
+  "titular" : "Lucas",
+  "cpf" : "882744650-39",
+  "numeroDaConta" : "4629-6",
+  "dataAbertura" : "16/4/2014",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$185.94",
+  "agencia" : "Dígito 6 - Nu Bank",
+  "saldoConta" : "R$1859.43"
+}, {
+  "titular" : "Geralda",
+  "cpf" : "479020398-69",
+  "numeroDaConta" : "3126-7",
+  "dataAbertura" : "26/6/2000",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$86.51",
+  "agencia" : "Dígito 7 - C6 Bank",
+  "saldoConta" : "R$865.09"
+}, {
+  "titular" : "Isabela",
+  "cpf" : "535729455-60",
+  "numeroDaConta" : "4110-7",
+  "dataAbertura" : "19/5/2012",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$855.16",
+  "agencia" : "Dígito 7 - C6 Bank",
+  "saldoConta" : "R$8551.64"
+}, {
+  "titular" : "Papinho",
+  "cpf" : "729551706-55",
+  "numeroDaConta" : "3735-5",
+  "dataAbertura" : "1/4/2000",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$536",
+  "agencia" : "Dígito 5 - Banco do Brasil",
+  "saldoConta" : "R$5360.03"
+}, {
+  "titular" : "Eliéser",
+  "cpf" : "705876664-96",
+  "numeroDaConta" : "3903-9",
+  "dataAbertura" : "9/1/2001",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$9677.59",
+  "rendimento" : "R$85.64",
+  "agencia" : "Dígito 9 - Banco Inter",
+  "saldoConta" : "R$8564.24"
+}, {
+  "titular" : "Letícia",
+  "cpf" : "470561328-56",
+  "numeroDaConta" : "3664-9",
+  "dataAbertura" : "15/11/2023",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$10809.1",
+  "rendimento" : "R$95.66",
+  "agencia" : "Dígito 9 - Banco Inter",
+  "saldoConta" : "R$9565.58"
+}, {
+  "titular" : "Igor",
+  "cpf" : "273633135-61",
+  "numeroDaConta" : "4611-5",
+  "dataAbertura" : "23/7/2018",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$763.42",
+  "agencia" : "Dígito 5 - Banco do Brasil",
+  "saldoConta" : "R$7634.21"
+}, {
+  "titular" : "Eduardo",
+  "cpf" : "651444887-32",
+  "numeroDaConta" : "4479-1",
+  "dataAbertura" : "6/10/1996",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$5320.62",
+  "rendimento" : "R$47.09",
+  "agencia" : "Dígito 1 - Bradesco",
+  "saldoConta" : "R$4708.51"
+}, {
+  "titular" : "Cristino",
+  "cpf" : "994094469-12",
+  "numeroDaConta" : "3709-9",
+  "dataAbertura" : "27/2/2011",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$3268.22",
+  "rendimento" : "R$28.92",
+  "agencia" : "Dígito 9 - Banco Inter",
+  "saldoConta" : "R$2892.23"
+}, {
+  "titular" : "Luiz",
+  "cpf" : "932857955-31",
+  "numeroDaConta" : "4122-2",
+  "dataAbertura" : "25/3/2016",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$3342.69",
+  "rendimento" : "R$29.58",
+  "agencia" : "Dígito 2 - Itaú",
+  "saldoConta" : "R$2958.13"
+}, {
+  "titular" : "Thais",
+  "cpf" : "708720023-33",
+  "numeroDaConta" : "3756-8",
+  "dataAbertura" : "20/5/2023",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$3231.92",
+  "rendimento" : "R$28.6",
+  "agencia" : "Dígito 8 - Caixa Econômica Federal",
+  "saldoConta" : "R$2860.11"
+}, {
+  "titular" : "Gustavo",
+  "cpf" : "755965652-42",
+  "numeroDaConta" : "4187-7",
+  "dataAbertura" : "22/2/2014",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$746.08",
+  "agencia" : "Dígito 7 - C6 Bank",
+  "saldoConta" : "R$7460.81"
+}, {
+  "titular" : "Lucas",
+  "cpf" : "376612441-45",
+  "numeroDaConta" : "4714-2",
+  "dataAbertura" : "12/10/2010",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$5043.54",
+  "rendimento" : "R$44.63",
+  "agencia" : "Dígito 2 - Itaú",
+  "saldoConta" : "R$4463.31"
+}, {
+  "titular" : "Letícia",
+  "cpf" : "617106298-55",
+  "numeroDaConta" : "3215-8",
+  "dataAbertura" : "9/8/2010",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$11100.85",
+  "rendimento" : "R$98.24",
+  "agencia" : "Dígito 8 - Caixa Econômica Federal",
+  "saldoConta" : "R$9823.76"
+}, {
+  "titular" : "Eliéser",
+  "cpf" : "627671252-66",
+  "numeroDaConta" : "4816-2",
+  "dataAbertura" : "19/7/2017",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$706.22",
+  "rendimento" : "R$6.25",
+  "agencia" : "Dígito 2 - Itaú",
+  "saldoConta" : "R$624.97"
+}, {
+  "titular" : "Beatriz",
+  "cpf" : "273489974-47",
+  "numeroDaConta" : "3690-5",
+  "dataAbertura" : "16/11/2004",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$285.79",
+  "agencia" : "Dígito 5 - Banco do Brasil",
+  "saldoConta" : "R$2857.85"
+}, {
+  "titular" : "Pedro",
+  "cpf" : "991381119-58",
+  "numeroDaConta" : "4501-5",
+  "dataAbertura" : "24/4/2021",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$7757.43",
+  "rendimento" : "R$68.65",
+  "agencia" : "Dígito 5 - Banco do Brasil",
+  "saldoConta" : "R$6864.98"
+}, {
+  "titular" : "Papinho",
+  "cpf" : "948094485-11",
+  "numeroDaConta" : "4552-3",
+  "dataAbertura" : "13/9/2004",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$2980.89",
+  "rendimento" : "R$26.38",
+  "agencia" : "Dígito 3 - Unibanco",
+  "saldoConta" : "R$2637.96"
+}, {
+  "titular" : "Marta",
+  "cpf" : "452187927-35",
+  "numeroDaConta" : "4066-4",
+  "dataAbertura" : "9/5/2017",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$298.67",
+  "agencia" : "Digito 4 - Santander",
+  "saldoConta" : "R$2986.65"
+}, {
+  "titular" : "Renato",
+  "cpf" : "937204016-50",
+  "numeroDaConta" : "3823-6",
+  "dataAbertura" : "9/3/2021",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$9776.44",
+  "rendimento" : "R$86.52",
+  "agencia" : "Dígito 6 - Nu Bank",
+  "saldoConta" : "R$8651.72"
+}, {
+  "titular" : "Gabriel",
+  "cpf" : "654128757-66",
+  "numeroDaConta" : "3735-7",
+  "dataAbertura" : "20/6/2016",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$264.43",
+  "agencia" : "Dígito 7 - C6 Bank",
+  "saldoConta" : "R$2644.34"
+}, {
+  "titular" : "Eduardo",
+  "cpf" : "372215952-38",
+  "numeroDaConta" : "4623-1",
+  "dataAbertura" : "2/8/2020",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$510.33",
+  "agencia" : "Dígito 1 - Bradesco",
+  "saldoConta" : "R$5103.31"
+}, {
+  "titular" : "Luiz",
+  "cpf" : "722105583-23",
+  "numeroDaConta" : "3376-7",
+  "dataAbertura" : "17/11/2017",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$967.23",
+  "agencia" : "Dígito 7 - C6 Bank",
+  "saldoConta" : "R$9672.32"
+}, {
+  "titular" : "Luiz",
+  "cpf" : "292939798-75",
+  "numeroDaConta" : "4797-3",
+  "dataAbertura" : "22/8/2018",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$903.73",
+  "agencia" : "Dígito 3 - Unibanco",
+  "saldoConta" : "R$9037.28"
+}, {
+  "titular" : "Denise",
+  "cpf" : "948254973-64",
+  "numeroDaConta" : "3403-5",
+  "dataAbertura" : "10/4/2004",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$9179.56",
+  "rendimento" : "R$81.24",
+  "agencia" : "Dígito 5 - Banco do Brasil",
+  "saldoConta" : "R$8123.51"
+}, {
+  "titular" : "Rafael",
+  "cpf" : "667182100-10",
+  "numeroDaConta" : "4616-7",
+  "dataAbertura" : "25/1/1999",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$922.73",
+  "agencia" : "Dígito 7 - C6 Bank",
+  "saldoConta" : "R$9227.3"
+}, {
+  "titular" : "Camila",
+  "cpf" : "575007525-80",
+  "numeroDaConta" : "3257-3",
+  "dataAbertura" : "12/6/1998",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$9885.38",
+  "rendimento" : "R$87.48",
+  "agencia" : "Dígito 3 - Unibanco",
+  "saldoConta" : "R$8748.12"
+}, {
+  "titular" : "Julia",
+  "cpf" : "439291772-16",
+  "numeroDaConta" : "3319-6",
+  "dataAbertura" : "7/8/1998",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$107.19",
+  "agencia" : "Dígito 6 - Nu Bank",
+  "saldoConta" : "R$1071.94"
+}, {
+  "titular" : "Igor",
+  "cpf" : "980488514-14",
+  "numeroDaConta" : "4839-5",
+  "dataAbertura" : "11/2/1992",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$41.73",
+  "agencia" : "Dígito 5 - Banco do Brasil",
+  "saldoConta" : "R$417.28"
+}, {
+  "titular" : "Cristino",
+  "cpf" : "982585716-47",
+  "numeroDaConta" : "4285-4",
+  "dataAbertura" : "19/11/2018",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$824.21",
+  "agencia" : "Digito 4 - Santander",
+  "saldoConta" : "R$8242.13"
+}, {
+  "titular" : "Camila",
+  "cpf" : "853460354-89",
+  "numeroDaConta" : "4030-4",
+  "dataAbertura" : "21/6/1992",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$99.94",
+  "agencia" : "Digito 4 - Santander",
+  "saldoConta" : "R$999.44"
+}, {
+  "titular" : "Larissa",
+  "cpf" : "404219489-75",
+  "numeroDaConta" : "3058-5",
+  "dataAbertura" : "12/1/1996",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$442.21",
+  "agencia" : "Dígito 5 - Banco do Brasil",
+  "saldoConta" : "R$4422.08"
+}, {
+  "titular" : "Renato",
+  "cpf" : "709778979-16",
+  "numeroDaConta" : "3363-3",
+  "dataAbertura" : "16/8/2022",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$674.97",
+  "agencia" : "Dígito 3 - Unibanco",
+  "saldoConta" : "R$6749.74"
+}, {
+  "titular" : "Thais",
+  "cpf" : "312749930-15",
+  "numeroDaConta" : "3192-3",
+  "dataAbertura" : "14/11/2012",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$2796.54",
+  "rendimento" : "R$24.75",
+  "agencia" : "Dígito 3 - Unibanco",
+  "saldoConta" : "R$2474.81"
+}, {
+  "titular" : "Camila",
+  "cpf" : "415923168-49",
+  "numeroDaConta" : "3058-4",
+  "dataAbertura" : "5/5/2020",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$643.81",
+  "agencia" : "Digito 4 - Santander",
+  "saldoConta" : "R$6438.14"
+}, {
+  "titular" : "Vivian",
+  "cpf" : "924897113-80",
+  "numeroDaConta" : "4156-1",
+  "dataAbertura" : "11/10/2000",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$616.63",
+  "agencia" : "Dígito 1 - Bradesco",
+  "saldoConta" : "R$6166.26"
+}, {
+  "titular" : "Camila",
+  "cpf" : "679177983-69",
+  "numeroDaConta" : "4803-6",
+  "dataAbertura" : "14/3/1994",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$603.04",
+  "rendimento" : "R$5.34",
+  "agencia" : "Dígito 6 - Nu Bank",
+  "saldoConta" : "R$533.66"
+}, {
+  "titular" : "Thais",
+  "cpf" : "404911831-38",
+  "numeroDaConta" : "4972-2",
+  "dataAbertura" : "8/9/2004",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$1233.41",
+  "rendimento" : "R$10.92",
+  "agencia" : "Dígito 2 - Itaú",
+  "saldoConta" : "R$1091.51"
+}, {
+  "titular" : "Isabela",
+  "cpf" : "260720186-35",
+  "numeroDaConta" : "4019-8",
+  "dataAbertura" : "5/5/2010",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$486.44",
+  "agencia" : "Dígito 8 - Caixa Econômica Federal",
+  "saldoConta" : "R$4864.41"
+}, {
+  "titular" : "Raquel",
+  "cpf" : "738946488-11",
+  "numeroDaConta" : "3883-9",
+  "dataAbertura" : "12/1/1999",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$7131.5",
+  "rendimento" : "R$63.11",
+  "agencia" : "Dígito 9 - Banco Inter",
+  "saldoConta" : "R$6311.06"
+}, {
+  "titular" : "Daniela",
+  "cpf" : "826012669-81",
+  "numeroDaConta" : "3207-3",
+  "dataAbertura" : "24/4/2000",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$601.98",
+  "agencia" : "Dígito 3 - Unibanco",
+  "saldoConta" : "R$6019.83"
+}, {
+  "titular" : "Cibeli",
+  "cpf" : "326280827-69",
+  "numeroDaConta" : "3979-7",
+  "dataAbertura" : "5/9/1997",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$10791.52",
+  "rendimento" : "R$95.5",
+  "agencia" : "Dígito 7 - C6 Bank",
+  "saldoConta" : "R$9550.02"
+}, {
+  "titular" : "Papinho",
+  "cpf" : "817649869-89",
+  "numeroDaConta" : "4908-8",
+  "dataAbertura" : "26/4/1992",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$6667.28",
+  "rendimento" : "R$59",
+  "agencia" : "Dígito 8 - Caixa Econômica Federal",
+  "saldoConta" : "R$5900.25"
+}, {
+  "titular" : "Cibeli",
+  "cpf" : "820913338-31",
+  "numeroDaConta" : "3102-9",
+  "dataAbertura" : "2/5/2000",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$4869.15",
+  "rendimento" : "R$43.09",
+  "agencia" : "Dígito 9 - Banco Inter",
+  "saldoConta" : "R$4308.98"
+}, {
+  "titular" : "Tonin",
+  "cpf" : "738411349-67",
+  "numeroDaConta" : "3397-9",
+  "dataAbertura" : "3/10/2000",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$282.64",
+  "agencia" : "Dígito 9 - Banco Inter",
+  "saldoConta" : "R$2826.39"
+}, {
+  "titular" : "Roberswaldo",
+  "cpf" : "565897785-49",
+  "numeroDaConta" : "4246-9",
+  "dataAbertura" : "3/5/2001",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$8907.52",
+  "rendimento" : "R$78.83",
+  "agencia" : "Dígito 9 - Banco Inter",
+  "saldoConta" : "R$7882.76"
+}, {
+  "titular" : "Rodrigo",
+  "cpf" : "794795647-27",
+  "numeroDaConta" : "4246-9",
+  "dataAbertura" : "10/7/2014",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$716.88",
+  "agencia" : "Dígito 9 - Banco Inter",
+  "saldoConta" : "R$7168.82"
+}, {
+  "titular" : "Vivian",
+  "cpf" : "263179671-83",
+  "numeroDaConta" : "3605-8",
+  "dataAbertura" : "5/8/2017",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$9324.74",
+  "rendimento" : "R$82.52",
+  "agencia" : "Dígito 8 - Caixa Econômica Federal",
+  "saldoConta" : "R$8251.98"
+}, {
+  "titular" : "Mateus",
+  "cpf" : "285081689-73",
+  "numeroDaConta" : "3475-5",
+  "dataAbertura" : "29/5/2022",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$977.9",
+  "agencia" : "Dígito 5 - Banco do Brasil",
+  "saldoConta" : "R$9778.96"
+}, {
+  "titular" : "Isabela",
+  "cpf" : "874060498-24",
+  "numeroDaConta" : "3209-8",
+  "dataAbertura" : "1/11/2022",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$162.7",
+  "agencia" : "Dígito 8 - Caixa Econômica Federal",
+  "saldoConta" : "R$1627.02"
+}, {
+  "titular" : "Marta",
+  "cpf" : "755451901-46",
+  "numeroDaConta" : "3827-4",
+  "dataAbertura" : "9/10/2020",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$290.79",
+  "agencia" : "Digito 4 - Santander",
+  "saldoConta" : "R$2907.95"
+}, {
+  "titular" : "Antonio",
+  "cpf" : "787555082-29",
+  "numeroDaConta" : "4358-9",
+  "dataAbertura" : "11/3/2016",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$736.77",
+  "agencia" : "Dígito 9 - Banco Inter",
+  "saldoConta" : "R$7367.66"
+}, {
+  "titular" : "Thais",
+  "cpf" : "616375908-40",
+  "numeroDaConta" : "4779-2",
+  "dataAbertura" : "15/11/2003",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$10222.69",
+  "rendimento" : "R$90.47",
+  "agencia" : "Dígito 2 - Itaú",
+  "saldoConta" : "R$9046.63"
+}, {
+  "titular" : "Luiz",
+  "cpf" : "832704290-65",
+  "numeroDaConta" : "4458-1",
+  "dataAbertura" : "19/10/2020",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$6944.56",
+  "rendimento" : "R$61.46",
+  "agencia" : "Dígito 1 - Bradesco",
+  "saldoConta" : "R$6145.62"
+}, {
+  "titular" : "Gustavo",
+  "cpf" : "501068161-91",
+  "numeroDaConta" : "4841-5",
+  "dataAbertura" : "26/4/2018",
+  "tipoDeConta" : "Conta corrente",
+  "limite" : "R$5874.3",
+  "rendimento" : "R$51.98",
+  "agencia" : "Dígito 5 - Banco do Brasil",
+  "saldoConta" : "R$5198.49"
+}, {
+  "titular" : "Carla",
+  "cpf" : "763497167-92",
+  "numeroDaConta" : "4351-5",
+  "dataAbertura" : "5/2/2004",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$71.34",
+  "agencia" : "Dígito 5 - Banco do Brasil",
+  "saldoConta" : "R$713.43"
+}, {
+  "titular" : "Marta",
+  "cpf" : "377302822-26",
+  "numeroDaConta" : "4272-6",
+  "dataAbertura" : "4/8/2019",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$989.93",
+  "agencia" : "Dígito 6 - Nu Bank",
+  "saldoConta" : "R$9899.32"
+}, {
+  "titular" : "Letícia",
+  "cpf" : "949514198-95",
+  "numeroDaConta" : "3056-8",
+  "dataAbertura" : "16/1/2004",
+  "tipoDeConta" : "Conta poupança",
+  "limite" : "R$0",
+  "rendimento" : "R$639.68",
+  "agencia" : "Dígito 8 - Caixa Econômica Federal",
+  "saldoConta" : "R$6396.76"
+} ]
