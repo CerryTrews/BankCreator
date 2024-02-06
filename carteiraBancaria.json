@@ -1,0 +1,101 @@
+[ {
+  "Titular" : "Lara Carvalho",
+  "CPF" : "395871201-44",
+  "Tipo" : " -- Conta corrente -- ",
+  "Número" : "4370-9",
+  "Agência" : "Dígito 9 - Banco Inter",
+  "Saldo" : "R$328.14",
+  "Limite" : "R$370.8",
+  "Rendimento" : "R$3.28/mês",
+  "Data de abertura" : "15/9/2007"
+}, {
+  "Titular" : "Luana Souza",
+  "CPF" : "557402494-68",
+  "Tipo" : " -- Conta corrente -- ",
+  "Número" : "3922-8",
+  "Agência" : "Dígito 8 - Caixa Econômica Federal",
+  "Saldo" : "R$6226.9",
+  "Limite" : "R$7036.4",
+  "Rendimento" : "R$62.27/mês",
+  "Data de abertura" : "23/3/2004"
+}, {
+  "Titular" : "Larissa Almeida",
+  "CPF" : "631785391-88",
+  "Tipo" : " -- Conta poupança -- ",
+  "Número" : "3643-2",
+  "Agência" : "Dígito 2 - Itaú",
+  "Saldo" : "R$5009.35",
+  "Limite" : "R$0",
+  "Rendimento" : "R$500.94/mês",
+  "Data de abertura" : "10/11/1996"
+}, {
+  "Titular" : "Mariana Oliveira",
+  "CPF" : "745250640-67",
+  "Tipo" : " -- Conta corrente -- ",
+  "Número" : "4791-4",
+  "Agência" : "Digito 4 - Santander",
+  "Saldo" : "R$4091.57",
+  "Limite" : "R$4623.48",
+  "Rendimento" : "R$40.92/mês",
+  "Data de abertura" : "14/11/2017"
+}, {
+  "Titular" : "Nicolas Pereira",
+  "CPF" : "815304040-61",
+  "Tipo" : " -- Conta poupança -- ",
+  "Número" : "3209-7",
+  "Agência" : "Dígito 7 - C6 Bank",
+  "Saldo" : "R$1964",
+  "Limite" : "R$0",
+  "Rendimento" : "R$196.4/mês",
+  "Data de abertura" : "29/3/2002"
+}, {
+  "Titular" : "Miguel Lima",
+  "CPF" : "503723219-79",
+  "Tipo" : " -- Conta corrente -- ",
+  "Número" : "3381-6",
+  "Agência" : "Dígito 6 - Nu Bank",
+  "Saldo" : "R$4940.33",
+  "Limite" : "R$5582.58",
+  "Rendimento" : "R$49.4/mês",
+  "Data de abertura" : "22/9/2006"
+}, {
+  "Titular" : "Daniel Alves",
+  "CPF" : "748958097-94",
+  "Tipo" : " -- Conta poupança -- ",
+  "Número" : "3054-6",
+  "Agência" : "Dígito 6 - Nu Bank",
+  "Saldo" : "R$937.61",
+  "Limite" : "R$0",
+  "Rendimento" : "R$93.76/mês",
+  "Data de abertura" : "7/10/2011"
+}, {
+  "Titular" : "Sophia Oliveira",
+  "CPF" : "779557747-77",
+  "Tipo" : " -- Conta corrente -- ",
+  "Número" : "3941-6",
+  "Agência" : "Dígito 6 - Nu Bank",
+  "Saldo" : "R$2522.34",
+  "Limite" : "R$2850.24",
+  "Rendimento" : "R$25.22/mês",
+  "Data de abertura" : "23/2/1993"
+}, {
+  "Titular" : "Eduardo Rocha",
+  "CPF" : "540794639-56",
+  "Tipo" : " -- Conta corrente -- ",
+  "Número" : "3704-1",
+  "Agência" : "Dígito 1 - Bradesco",
+  "Saldo" : "R$5005.16",
+  "Limite" : "R$5655.83",
+  "Rendimento" : "R$50.05/mês",
+  "Data de abertura" : "13/1/1992"
+}, {
+  "Titular" : "João Pereira",
+  "CPF" : "441777948-71",
+  "Tipo" : " -- Conta corrente -- ",
+  "Número" : "4307-4",
+  "Agência" : "Digito 4 - Santander",
+  "Saldo" : "R$8535.4",
+  "Limite" : "R$9645",
+  "Rendimento" : "R$85.35/mês",
+  "Data de abertura" : "4/6/2023"
+} ]
